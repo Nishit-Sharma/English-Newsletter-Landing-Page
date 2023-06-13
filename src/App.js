@@ -18,6 +18,9 @@ function App() {
         <button onClick={() => handleClick('https://english-newsletter-mp2.vercel.app')}>MP2</button>
         <button onClick={() => handleClick('https://english-newsletter-mp3.vercel.app')}>MP3</button>
       </div>
+      <div className="buttons" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '5vh'}}>
+        <button onClick={() => handleClick('https://english-newsletter-mp4.vercel.app')}>MP4</button>
+      </div>
     </div>
   );
 }
